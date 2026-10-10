@@ -1,0 +1,36 @@
+
+================================================================================
+Day-20 | N=31 | missing_ratio=0.00 | Labeling: biomarker-threshold (max-rule)
+================================================================================
+Fold 1: ACC=0.714, Macro-F1=0.708, Balanced ACC=0.800
+Confusion Matrix (rows=true, cols=pred) in %:
+[[100.00% 0.00%]
+ [40.00% 60.00%]]
+Fold 2: ACC=0.833, Macro-F1=0.829, Balanced ACC=0.875
+Confusion Matrix (rows=true, cols=pred) in %:
+[[100.00% 0.00%]
+ [25.00% 75.00%]]
+Fold 3: ACC=0.167, Macro-F1=0.143, Balanced ACC=0.500
+Confusion Matrix (rows=true, cols=pred) in %:
+[[100.00% 0.00%]
+ [100.00% 0.00%]]
+Fold 4: ACC=0.833, Macro-F1=0.778, Balanced ACC=0.900
+Confusion Matrix (rows=true, cols=pred) in %:
+[[100.00% 0.00%]
+ [20.00% 80.00%]]
+Fold 5: ACC=0.333, Macro-F1=0.333, Balanced ACC=0.600
+Confusion Matrix (rows=true, cols=pred) in %:
+[[100.00% 0.00%]
+ [80.00% 20.00%]]
+
+================================================================================
+Overall CV Results for Day-20 (missing_ratio=0.00):
+  Mean ACC: 0.576 (+/- 0.275)
+  Mean Macro-F1: 0.558 (+/- 0.271)
+  Mean Balanced ACC: 0.735 (+/- 0.158)
+  [Bootstrap 95% CI, pooled OOF predictions, n_boot=2000]
+    ACC          : 0.582  CI=[0.419, 0.742]
+    Macro-F1     : 0.567  CI=[0.388, 0.740]
+    Balanced ACC : 0.730  CI=[0.630, 0.833]
+    ROC-AUC      : 0.946  CI=[0.853, 1.000]
+================================================================================

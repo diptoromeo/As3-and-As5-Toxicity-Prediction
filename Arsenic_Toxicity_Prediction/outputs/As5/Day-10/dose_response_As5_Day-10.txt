@@ -1,0 +1,4 @@
+[As5 | Day-10] Dose-Response Curve Fitting
+  Hill fit: top=1.000, EC50=0.7099 mg/L, slope=20.000, bottom=0.000
+  Logistic fit: intercept=-1.9485, slope=2.3956, EC50(50% prob)=0.8133 mg/L
+  Plot saved: outputs\As5\Day-10\dose_response_As5_Day-10.png

@@ -1,0 +1,5 @@
+[Cross-Species Generalizability] base=As5_Day10 -> target=Zebrafish (Danio rerio) / external species
+  Base model trained on As5_Day10 (N=40) saved -> outputs\As5\cross_species\base_model_As5_Day10.pth
+  [대기] 외부 종 데이터 경로가 없습니다: data\external_As5_zebrafish.xlsx
+  -> 동일 엑셀 포맷(10일/20일 블록, group=농도(mg/L), 11개 biomarker 행)으로
+     데이터를 두면 이 함수가 자동으로 zero-shot/transfer-learning 평가를 수행합니다.
